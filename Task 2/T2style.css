@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    overflow: hidden;
+}
+#innerborder{
+    border: black solid;
+    border-width: 10px;
+    padding: 10px;
+}
+#outerborder{
+    border: crimson dotted;
+    border-width: 5px;
+    margin-top: 200px;
+    margin-left: 740px;
+    margin-right: 740px;
+}
+#title{
+    color: #44883E;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+    border: solid;
+    border-width: 1px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#nodejslogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+#maintext{
+    box-sizing: border-box;
+    color: #44883E;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500s;
+    font-weight: 200;
+    border:crimson dashed;
+    border-width: 5px;
+    overflow: scroll;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    padding: 5px;
+    height: 230px;
+}
