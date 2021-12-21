@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    margin-left: 14%;
+}
+.card{
+    display: inline-block;
+    width: 450px;
+    border-radius: 15px;
+    padding-top: 5vh;
+    padding-right: 17vh;
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+    margin-top: 12%;
+}
+#sedans-card{
+    margin-left: 25px;
+    position: static;
+    background-color: #fa8405;
+    border: #fa8405 solid;
+}
+#suvs-card{
+    background-color: #006970;
+    border: #006970 solid;
+    margin-left: 25px;
+}
+#luxuray-card{
+    background-color: #004241;
+    border: #004241 solid;
+    margin-left: 25px;
+}
+.logo{
+    margin-top:10px ;
+    margin-bottom: 30px;
+}
+.card-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.card-description{
+    font-weight: 1000;
+    font-family: 'Questrial', sans-serif;
+    color: hsla(0, 0%, 100%, 0.55);
+    font-size: 20px;
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.button{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    border: white;
+    padding: 15px;
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
+.hovering:hover{
+   transform: translateY(-0.33em);
+}
+.pushing:active{
+   transform: translateY(0);
+}
+#button1{
+    color: #fa8405;
+}
+#button2{
+    color: #006970;
+}
+#button3{
+    color: #004241;
+}
