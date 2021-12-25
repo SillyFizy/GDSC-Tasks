@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-image: url(bg-desktop.svg);
+  background-color: #7040AD;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+}
+#logo {
+  position: fixed;
+  width: 18%;
+}
+#appinterface {
+  position: fixed;
+  top: 160px;
+  left: 160px;
+  width: 47%;
+}
+.description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  left: 57%;
+  top: 15vh;
+  width: 40%;
+  margin: 10px;
+  padding: 100px;
+}
+#heading {
+  width: 400px;
+  margin-bottom: 20px;
+}
+#maintext {
+  margin-bottom: 20px;
+}
+#button {
+  margin-top: 20px;  
+  background: linear-gradient(-45deg, #FD75E6, #f308cc, #a01288, #FD75E6);
+  background-size: 800% 400%;
+  padding: 1em 2em;
+  display: inline-block;
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+}
+#button:hover {
+  animation: gradient 3s infinite;
+  transform: scale(1.05);
+}
+
+#button:active {
+  animation: gradient 3s infinite;
+  transform: scale(0.8);
+}
+#socialmedia{
+    color: white;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
