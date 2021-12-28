@@ -233,7 +233,7 @@ body {
     align-items: center;
   }
   .diamond {
-    flex-basis: 55%;
+    flex-basis: 60%;
     display: flex;
     justify-content: space-around;
     align-items: center;
